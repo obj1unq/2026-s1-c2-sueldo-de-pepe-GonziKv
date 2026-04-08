@@ -41,10 +41,6 @@ object bonoPresentismoDemagogico{
 	}
 }
 
-/*
- * Bono nulo: sirve para resultados y para presentismo, cuando el importe es 0 
- * (o "nada")
- */
 object bonoNulo {
 	method monto(empleado) { 
 		return 0

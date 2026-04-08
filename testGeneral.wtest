@@ -1,7 +1,6 @@
 import pepe.*
 import bonos.*
 import categorias.*
-import sofia.*
 import ernesto.*
 import roque.*
 describe "trabajo" {
