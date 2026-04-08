@@ -1,0 +1,20 @@
+import pepe.*
+import bonos.*
+import categorias.*
+import ernesto.*
+import roque.*
+describe "trabajo" {
+    test "Test inicial 1"{
+        medioTiempo.categoriaBase(cadete)
+        pepe.setCategoria(medioTiempo)
+        pepe.setBonoResultado(bonoPorcentaje)
+        pepe.setBonoPresentismo(bonoPresentismoDemagogico)
+        pepe.setCantidadDeFaltas(1)
+        roque.setBonoResultado(bonoMontoFijo)
+        ernesto.setCompañero(pepe)
+        ernesto.setBonoPresentismo(bonoPresentismoAjuste)
+        assert.equals (10000 + 1000 + 500, pepe.sueldo())
+        assert.equals (37800, roque.sueldo())
+        assert.equals (10100, ernesto.sueldo())
+    }
+}
