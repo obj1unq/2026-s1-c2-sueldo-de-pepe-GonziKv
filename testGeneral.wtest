@@ -10,10 +10,10 @@ describe "trabajo" {
         pepe.setBonoResultado(bonoPorcentaje)
         pepe.setBonoPresentismo(bonoPresentismoDemagogico)
         pepe.setCantidadDeFaltas(1)
-        pepe.setBonoResultado(bonoMontoFijo)
+        roque.setBonoResultado(bonoMontoFijo)
         ernesto.setCompañero(pepe)
         ernesto.setBonoPresentismo(bonoPresentismoAjuste)
-        assert.equals (11500, pepe.sueldo())
+        assert.equals (10000 + 1000 + 500, pepe.sueldo())
         assert.equals (37800, roque.sueldo())
         assert.equals (10100, ernesto.sueldo())
     }

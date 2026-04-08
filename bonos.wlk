@@ -33,7 +33,7 @@ object bonoPresentismoAjuste {
 
 object bonoPresentismoDemagogico{
 	method monto(empleado){
-		if (empleado.sueldoNeto() < 1800){
+		if (empleado.sueldoNeto() < 18000){
 			return 500
 		}
 		else
