@@ -32,9 +32,6 @@ object pepe {
 	}
 	method sueldo() {
 		return self.sueldoNeto() + bonoResultado.monto(self) + bonoPresentismo.monto(self)
-		/* notar que todos los bonos entienden el mensaje monto(empleado)
-		 * en este caso ¿quién es el empleado?
-		 */ 
 	}
 	
 }
